@@ -1,0 +1,40 @@
+{
+  "accuracy": 0.7633333333333333,
+  "precision_weighted": 0.7752758077226164,
+  "recall_weighted": 0.7633333333333333,
+  "f1_weighted": 0.7670644011709304,
+  "cv_accuracy_mean": 0.7783333333333334,
+  "cv_accuracy_std": 0.017701224063135682,
+  "confusion_matrix": [
+    [
+      161,
+      39,
+      0
+    ],
+    [
+      27,
+      145,
+      28
+    ],
+    [
+      0,
+      48,
+      152
+    ]
+  ],
+  "label_names": [
+    "Easy",
+    "Medium",
+    "Hard"
+  ],
+  "feature_importances": {
+    "confidence": 0.34759581758141533,
+    "prev_quiz_score": 0.1528388648107391,
+    "days_since_revision": 0.2558415111641764,
+    "available_hours": 0.08535682006219172,
+    "complexity": 0.15836698638147753
+  },
+  "n_train": 2400,
+  "n_test": 600,
+  "dataset_note": "SYNTHETIC \u2014 generated programmatically, not real student data"
+}
